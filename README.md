@@ -25,6 +25,8 @@ Existem diferentes tipos de padrões de projeto, geralmente agrupados em três c
   - [Flyweight](/flyweight.md)
   - [Proxy](/proxy.md)
 
+pendente ....
+
 `Padrões comportamentais (behavioral patterns)`: se concentram nos padrões de comunicação e interação entre objetos, fornecendo soluções para organizar e gerenciar essas interações.
 
   - [Chain of Responsibility]()
