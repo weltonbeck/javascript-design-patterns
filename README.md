@@ -39,6 +39,4 @@ Existem diferentes tipos de padrões de projeto, geralmente agrupados em três c
 
 `Padrões de Concorrência`: Esse tipo de padrões de projeto lida com programação em várias threads (multi-threaded programming)
 
-  - [Active object]()
-  - [Nuclear reaction]()
-  - [Scheduler]()
+  - [Active object](/active-object.md)
