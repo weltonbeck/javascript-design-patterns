@@ -25,19 +25,17 @@ Existem diferentes tipos de padrões de projeto, geralmente agrupados em três c
   - [Flyweight](/flyweight.md)
   - [Proxy](/proxy.md)
 
-pendente ....
-
 `Padrões comportamentais (behavioral patterns)`: se concentram nos padrões de comunicação e interação entre objetos, fornecendo soluções para organizar e gerenciar essas interações.
 
-  - [Chain of Responsibility]()
-  - [Command]()
-  - [Iterator]()
-  - [Mediator]()
-  - [Memento]()
-  - [Observer]()
-  - [State]()
-  - [Strategy]()
-  - [Visitor]()
+  - [Chain of Responsibility](/chain-of-responsibility.md)
+  - [Command](/command.md)
+  - [Iterator](/iterator.md)
+  - [Mediator](/mediator.md)
+  - [Memento](/memento.md)
+  - [Observer](/observer.md)
+  - [State](/state.md)
+  - [Strategy](/strategy.md)
+  - [Visitor](/visitor.md)
 
 `Padrões de Concorrência`: Esse tipo de padrões de projeto lida com programação em várias threads (multi-threaded programming)
 
