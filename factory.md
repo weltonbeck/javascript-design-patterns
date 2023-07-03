@@ -37,8 +37,8 @@ carro1.exibirDetalhes(); // Saída: Modelo: Fiat, Ano: 2020
 carro2.exibirDetalhes(); // Saída: Modelo: Ford, Ano: 2021
 ```
 
-Neste exemplo, temos a classe **Carro** que representa um carro com propriedades de modelo e ano. A classe **FabricaDeCarros** é a fábrica que encapsula a lógica de criação de objetos **Carro**. Ela possui um método **criarCarro** que recebe o modelo e o ano e retorna uma nova instância de **Carro**.
+Neste exemplo, temos a classe `Carro` que representa um carro com propriedades de modelo e ano. A classe `FabricaDeCarros` é a fábrica que encapsula a lógica de criação de objetos `Carro`. Ela possui um método `criarCarro` que recebe o modelo e o ano e retorna uma nova instância de `Carro`.
 
-Ao utilizar o Factory, o código cliente (neste caso, o uso da fábrica) não precisa saber como exatamente o objeto **Carro** é criado. Ele apenas invoca o método **criarCarro** da fábrica, fornecendo os parâmetros necessários, e recebe o objeto **Carro** criado pela fábrica.
+Ao utilizar o Factory, o código cliente (neste caso, o uso da fábrica) não precisa saber como exatamente o objeto `Carro` é criado. Ele apenas invoca o método `criarCarro` da fábrica, fornecendo os parâmetros necessários, e recebe o objeto `Carro` criado pela fábrica.
 
 Dessa forma, o Factory permite adicionar lógica de criação complexa ou criar diferentes tipos de objetos com base em condições específicas, sem afetar o código que utiliza esses objetos. Isso torna o código mais flexível, modular e fácil de manter.

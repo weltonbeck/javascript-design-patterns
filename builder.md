@@ -69,8 +69,8 @@ pizza.exibirDetalhes();
 
 ```
 
-Nesse exemplo, temos a classe **Pizza** que será construída passo a passo usando o padrão Builder. O objeto **Pizza** possui propriedades como **tipo**, **tamanho** e **ingredientes**. A classe **PizzaBuilder** é responsável por configurar e construir a pizza, fornecendo métodos para definir o tipo, tamanho e adicionar ingredientes.
+Nesse exemplo, temos a classe `Pizza` que será construída passo a passo usando o padrão Builder. O objeto `Pizza` possui propriedades como `tipo`, `tamanho` e `ingredientes`. A classe `PizzaBuilder` é responsável por configurar e construir a pizza, fornecendo métodos para definir o tipo, tamanho e adicionar ingredientes.
 
-O código cliente cria uma instância do **PizzaBuilder** e usa seus métodos de configuração para definir as propriedades desejadas e adicionar ingredientes. Por fim, o método **build()** é chamado para obter o objeto **Pizza** construído. Em seguida, os detalhes da pizza são exibidos usando o método **exibirDetalhes()**.
+O código cliente cria uma instância do `PizzaBuilder` e usa seus métodos de configuração para definir as propriedades desejadas e adicionar ingredientes. Por fim, o método `build()` é chamado para obter o objeto `Pizza` construído. Em seguida, os detalhes da pizza são exibidos usando o método `exibirDetalhes()`.
 
 Dessa forma, o padrão Builder permite a criação flexível de objetos complexos, como pizzas, com diferentes combinações de propriedades e etapas de construção. Ele separa a lógica de construção do objeto da sua representação final, tornando o código mais legível e modular.

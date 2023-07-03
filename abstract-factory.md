@@ -87,11 +87,11 @@ caixaTextoEscuro.renderizar();   // Saída: Renderizando caixa de texto escuro..
 
 ```
 
-No exemplo, temos as classes concretas **BotaoClaro**, **BotaoEscuro**, **CaixaTextoClaro** e **CaixaTextoEscuro**, que representam os diferentes tipos de botões e caixas de texto correspondentes aos estilos claro e escuro.
+No exemplo, temos as classes concretas `BotaoClaro`, `BotaoEscuro`, `CaixaTextoClaro` e `CaixaTextoEscuro`, que representam os diferentes tipos de botões e caixas de texto correspondentes aos estilos claro e escuro.
 
-Ao usar o Abstract Factory, criamos instâncias das Concrete Factories correspondentes aos estilos que desejamos, ou seja, **ComponenteFactoryClaro** e **ComponenteFactoryEscuro**. Em seguida, usamos essas instâncias para criar objetos concretos chamando os métodos de criação correspondentes, como **criarBotao()** e **criarCaixaTexto()**.
+Ao usar o Abstract Factory, criamos instâncias das Concrete Factories correspondentes aos estilos que desejamos, ou seja, `ComponenteFactoryClaro` e `ComponenteFactoryEscuro`. Em seguida, usamos essas instâncias para criar objetos concretos chamando os métodos de criação correspondentes, como `criarBotao()` e `criarCaixaTexto()`.
 
-Assim, podemos criar botões e caixas de texto que correspondem aos estilos específicos, como **botaoClaro** e **caixaTextoClaro** para o estilo claro, e **botaoEscuro** e **caixaTextoEscuro** para o estilo escuro. Cada objeto pode ser renderizado de acordo com sua implementação específica.
+Assim, podemos criar botões e caixas de texto que correspondem aos estilos específicos, como `botaoClaro` e `caixaTextoClaro` para o estilo claro, e `botaoEscuro` e `caixaTextoEscuro` para o estilo escuro. Cada objeto pode ser renderizado de acordo com sua implementação específica.
 
 Dessa forma, o padrão Abstract Factory nos permite criar famílias de objetos relacionados sem nos preocuparmos com as classes concretas específicas, fornecendo uma interface comum para a criação desses objetos. Isso nos permite manter a consistência entre os objetos criados e tornar o código mais flexível para trabalhar com diferentes famílias de objetos.
 
